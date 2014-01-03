@@ -114,11 +114,10 @@ header{
 
 
 .title h1 {
-    border-left: 1px solid #FFFFFF;
     display: inline-block;
     font-family: 'robotothin';
     font-size: 15px;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-top: 2px;
     padding-bottom: 2px;
     padding-left: 30px;
@@ -375,7 +374,7 @@ nav#mainNav li a:hover{
 }
 
 
-#about{
+#about, #skills, #experience, #contact{
 	background:#ffffff;
 	color:#444444;
 }
@@ -405,7 +404,7 @@ nav#mainNav li a:hover{
 
 
 .education, .experience{
-	width:430px;
+	width:860px;
 }
 
 .education{
@@ -416,7 +415,7 @@ nav#mainNav li a:hover{
 	margin-right:-15px;
 }
 
-.education h1, .experience h1, .skills h1, .features h1, .touch h1, .info h1, .mapHolder h1{
+.education h1, .experience h1, .skills h1, .features h1, .touch h1, .info h1, .mapHolder h1, .contact h1{
 	font-size:16px;
 	font-family: 'robotobold';
 	margin-bottom:35px;
@@ -427,14 +426,22 @@ nav#mainNav li a:hover{
 	margin-bottom:25px;
 }
 
-
 .educ, .exp {
 	background:#FAFAFA;
-	margin-right: 15px;
+	margin-right: 10px;
 	padding: 10px;
 	text-align: center;
 	position:relative;
 	margin-bottom:40px;
+}
+
+.exp{
+	width:600px;
+	margin-left:150px;
+}
+
+.exp p{
+	text-align: justify;
 }
 
 .educ:last-child, .exp:last-child{
@@ -716,9 +723,9 @@ nav#mainNav li a:hover{
 	font-size:16px; 
 	line-height:24px;
 	font-family: 'robotoregular';
-	text-align:center;
 	position:relative;
 	margin-top:30px;
+	margin-bottom:30px;
 }
 
 
@@ -1024,7 +1031,7 @@ ul li.item a {
 	margin-bottom:10px;
 	padding-left:10px;
 	background: #FAFAFA;
-	border: 1px solid #efefef;
+	border: 1px solid #F48975;
 	color: #444444;
 	outline-width: 0;
 	font-family: 'robotoregular';
@@ -1077,6 +1084,12 @@ input#formSubmit:hover{
 	background:#F48975;
 }
 
+a{
+    color: #363F48;
+}
+a:hover{
+	color:#F48975;
+}
 
 #success{
 	display:none;
@@ -1187,6 +1200,7 @@ input#formSubmit:hover{
 
 .socialsFooter{
 	margin-top:15px;
+	margin-bottom:200px;
 }
 
 .socialsFooter li{
@@ -1303,7 +1317,6 @@ input#formSubmit:hover{
 	.services{margin-left:20px;}
 	.titleBig h1 {font-size: 77px;top: -28px;}
 	#works .portfolio{margin-right:-60px;margin-left:-10px;}
-	#contact .titleBig h1{font-size:70px;}
 	.titleMedium h2 {font-size: 24px;margin-left: 20px;margin-top: 62px;}
 	.touch, .info{width:400px;}
 	.touch input[type="text"], .respondForm input[type="email"]{width:380px;}
@@ -1370,7 +1383,6 @@ input#formSubmit:hover{
 	.titleBig h1 {font-size: 46px;top: -28px;}
 	#works .portfolio{margin-right:-40px;margin-left:20px;}
 	ul#category li a{font-size:12px;padding:6px 7px;}
-	#contact .titleBig h1{font-size:44px;}
 	.titleMedium h2 {font-size: 17px;margin-left: -18px;margin-top: 37px;}
 	.touch, .info{width:230px;}
 	.touch{margin-bottom:20px;}
